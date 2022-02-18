@@ -1,0 +1,31 @@
+@font-face {
+  font-family: swgothe;
+  src: url("/font/swgothe-webfont.woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: swgothe;
+}
+#IndexBody {
+  background-color:rgb(45, 45, 45)
+}
+#EnactedPolicy {
+  background-image: url("Texture Menu.png");
+  height: 80vh;
+  width: 15vw;
+  border: 0.2vw;
+  border-radius: 1vw;
+  border-style: solid;
+  padding: 0.5vw;
+}
+#EnactedPolicyTexture {
+  border: 10vw;
+  border-style: solid;
+  border-radius: 1vw;
+}
+#EnactedPolicyP {
+  color: rgb(0, 43, 35);
+}
+
