@@ -9,12 +9,63 @@
   font-family: swgothe;
 }
 #IndexBody {
-  background-color:rgb(45, 45, 45)
+  background-color: rgb(45, 45, 45);
+  display: grid;
+  grid-template-columns: 3fr, 2fr, 1fr;
+  grid-template-rows: 1fr, 2fr;
+}
+#InfoHUD {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  height: 1px;
+}
+#PolCompassDiv {
+  grid-row-start: 1;
+  grid-column-start: 3;
+}
+#PolCompass {
+  width: 17vw;
+  height: 1fr;
+}
+#StatsTracker {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr, 1fr;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  height: 6vw;
+}
+#RedPopulation {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  background-color: #f9bbbb;
+}
+#BlueControll {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  background-color: #93daf8;
+}
+#GreenPopularity {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  background-color: #c9e5bd;
+}
+#YellowTressuary {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  background-color: #f5f5a9;
+}
+#GameLoopArea {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 #EnactedPolicy {
-  background-image: url("Texture Menu.png");
   height: 80vh;
   width: 15vw;
+}
+div.InfoHUD {
+  background-image: url("Texture Menu.png");
   border: 0.2vw;
   border-radius: 1vw;
   border-style: solid;
@@ -28,4 +79,3 @@
 #EnactedPolicyP {
   color: rgb(0, 43, 35);
 }
-
