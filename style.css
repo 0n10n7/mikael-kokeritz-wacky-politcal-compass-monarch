@@ -18,6 +18,8 @@
   grid-row-start: 1;
   grid-column-start: 1;
   height: 1px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #PolCompassDiv {
   grid-row-start: 1;
