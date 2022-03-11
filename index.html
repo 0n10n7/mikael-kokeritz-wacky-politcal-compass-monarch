@@ -10,8 +10,8 @@
     <script defer src="app.js"></script>
 </head>
 <body id="IndexBody">
-    <div class="InfoHUD">
-        <p>This is a placholder for the current event!<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quod nemo non error perspiciatis natus, alias minus dignissimos omnis tempore placeat ullam nihil sequi! Sunt quas ab quasi eius accusantium.</p>
+    <div class="InfoHUD" id="CurrentEvent">
+        <p id="CurrentEventP">This is a placholder for the current event!<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quod nemo non error perspiciatis natus, alias minus dignissimos omnis tempore placeat ullam nihil sequi! Sunt quas ab quasi eius accusantium.</p>
     </div>
     <div id="StatsTracker">
         <div id="RedPopulation">
@@ -32,6 +32,12 @@
     </div>
     <div id="GameLoopArea">
         <img src="Pixel art king.png" alt="A picture of the king, which is who you are as the player.">
+        <div id="VoteDiv">
+            <img src="Pixel Art Farmer Peasent.png" alt="A picture of a Peasent" id="PoorPersonIsSpeaking">
+            <button><img src="Pixel Art Green Thumb.png" alt="Yes"></button>
+            <button><img src="Pixel Art Red Thumb.png" alt="No"></button>
+        </div>
+        
     </div>
     <div class="InfoHUD" id="EnactedPolicy">
         <p id="EnactedPolicyP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, libero? Aspernatur soluta accusantium hic delectus adipisci laboriosam deleniti culpa facilis? Nihil doloremque blanditiis illo ullam, inventore minima nam odit placeat.</p>

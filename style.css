@@ -16,12 +16,13 @@
   height: 100%;
   width: 100%;
 }
-#InfoHUD {
+#CurrentEvent {
   grid-row-start: 1;
   grid-column-start: 1;
-  height: 1px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 50%;
+}
+#CurrentEventP {
+  font-size: 100%;
 }
 #PolCompassDiv {
   grid-row-start: 1;
@@ -82,4 +83,8 @@ div.InfoHUD {
 }
 #EnactedPolicyP {
   color: rgb(0, 43, 35);
+}
+button {
+  background-color: #00000000;
+  border: none;
 }
