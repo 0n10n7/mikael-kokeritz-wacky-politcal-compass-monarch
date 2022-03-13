@@ -64,6 +64,16 @@
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#PoorPersonIsSpeaking {
+  width: 50%;
+}
+#PoorPersonHathSpoke {
+}
+#Ducking {
+  width: 100%;
 }
 #EnactedPolicy {
   height: 80vh;
@@ -84,7 +94,16 @@ div.InfoHUD {
 #EnactedPolicyP {
   color: rgb(0, 43, 35);
 }
+
 button {
   background-color: #00000000;
   border: none;
+}
+
+img {
+  display: block;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
 }
