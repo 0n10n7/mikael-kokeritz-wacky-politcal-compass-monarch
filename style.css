@@ -21,9 +21,6 @@
   grid-column-start: 1;
   height: 50%;
 }
-#CurrentEventP {
-  font-size: 100%;
-}
 #PolCompassDiv {
   grid-row-start: 1;
   grid-column-start: 3;
@@ -71,6 +68,7 @@
   width: 50%;
 }
 #PoorPersonHathSpoke {
+  
 }
 #Ducking {
   width: 100%;
@@ -85,6 +83,9 @@ div.InfoHUD {
   border-radius: 1vw;
   border-style: solid;
   padding: 0.5vw;
+}
+.InfoHUD > p{
+  font-size: var(--size);
 }
 #EnactedPolicyTexture {
   border: 10vw;
