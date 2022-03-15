@@ -68,9 +68,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-#Ducking{
+/* #Ducking{
 
-}
+} */
 #VoteDiv{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -100,8 +100,9 @@
 #Ducking {
   width: 100%;
 }
-#EnactedPolicy {
-}
+/* #EnactedPolicy {
+
+} */
 div.InfoHUD {
   background-image: url("Texture Menu.png");
   border: 0.2vw;
