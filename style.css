@@ -35,8 +35,8 @@
 }
 #StatsTracker {
   display: grid;
-  grid-template-rows: 1fr, 1fr;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-row-start: 1;
   grid-column-start: 2;
   height: 6vw;
@@ -61,6 +61,10 @@
   grid-column-start: 2;
   background-color: #f5f5a9;
 }
+p.TextResize{
+  font-size: var(--size);
+}
+
 #GameLoopArea {
   grid-row-start: 2;
   grid-column-start: 1;
@@ -97,7 +101,7 @@
   grid-column-start: 1;
   grid-column-end: 3;
 }
-#Ducking {
+#Ducking {/*Da Fucking King = Ducking Hehehe very funni*/
   width: 100%;
 }
 /* #EnactedPolicy {

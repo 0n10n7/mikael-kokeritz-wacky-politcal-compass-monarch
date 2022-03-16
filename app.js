@@ -18,7 +18,7 @@ function FieldsUpdater() {
   ControllField.innerHTML = Controll;
 }
 
-const Xbox = document.querySelectorAll(".InfoHUD");
+const Xbox = document.querySelectorAll(".InfoHUD" , ".TextResize");
 
 function UpdateDaBoxes() {
   Xbox.forEach(box => {
