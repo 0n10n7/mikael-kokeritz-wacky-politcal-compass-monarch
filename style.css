@@ -86,7 +86,7 @@
   grid-row-start: 3;
 }
 #PoorPersonIsSpeaking {
-  width: 50%;
+  width: 100%;
   grid-row-start: 2;
   grid-column-start: 2;
   grid-column-end: 3;
