@@ -61,7 +61,7 @@
   grid-column-start: 2;
   background-color: #f5f5a9;
 }
-p.TextResize{
+.TextResize > p{
   font-size: var(--size);
 }
 
@@ -72,37 +72,44 @@ p.TextResize{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-/* #Ducking{
-
-} */
 #VoteDiv{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 2fr 2fr 4fr;
   height: 66vh;
 }
 #GreenButton{
   grid-row-start: 1;
   grid-row-start: 2;
+  width: 100%;
+  height: 100%;
 }
 #RedButton{
   grid-row-start: 1;
   grid-row-start: 3;
+  width: 100%;
+  height: 100%;
+}
+.Thumb{
+  height: 100%;
 }
 #PoorPersonIsSpeaking {
-  width: 100%;
-  grid-row-start: 2;
+  max-height: 100%;
+  max-width: 100%;
+  grid-row-start: 5;
+  grid-row-end: 2;
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 4;
 }
 #PoorPersonHathSpoke {
   text-align: left;
   grid-row-start: 1;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
+  height: 100%;
 }
 #Ducking {/*Da Fucking King = Ducking Hehehe very funni*/
-  width: 100%;
+  height: 50%;
 }
 /* #EnactedPolicy {
 
