@@ -18,7 +18,10 @@ function FieldsUpdater() {
   ControllField.innerHTML = Controll;
 }
 
-const Xbox = document.querySelectorAll(".InfoHUD" , ".TextResize");
+function GameLoop(){
+
+}
+const Xbox = document.querySelectorAll(".InfoHUD");
 
 function UpdateDaBoxes() {
   Xbox.forEach(box => {
@@ -26,7 +29,7 @@ function UpdateDaBoxes() {
     var size = 100;
     Grogu.style.setProperty('--size', `${size}%`);
 
-    while (Grogu.clientHeight > box.clientHeight - 5 && size >0){
+    while (Grogu.clientHeight > box.clientHeight - 15 && size >0){
       Grogu.style.setProperty('--size', `${size}%`);
         size --;
     }
@@ -39,3 +42,6 @@ window.addEventListener('resize', UpdateDaBoxes);
 UpdateDaBoxes();
 
 FieldsUpdater();
+
+
+GameLoop();

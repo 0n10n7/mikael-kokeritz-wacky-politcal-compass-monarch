@@ -14,21 +14,21 @@
         <p id="CurrentEventP">This is a placholder for the current event!<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quod nemo non error perspiciatis natus, alias minus dignissimos omnis tempore placeat ullam nihil sequi! Sunt quas ab quasi eius accusantium. lore: DREAM IS MINCJAFT</p>
     </div>
     <div id="StatsTracker" >
-        <div id="RedPopulation" class="TextResize">
+        <div id="RedPopulation" >
             <p>Population:<span data-population>0</span></p>
         </div>
-        <div id="BlueControll" class="TextResize">
+        <div id="BlueControll" >
             <p>Controll:<span data-controll>0</span></p>
         </div>
-        <div id="GreenPopularity" class="TextResize">
+        <div id="GreenPopularity" >
             <p>Popularity:<span data-popularity>0</span></p>
         </div>
-        <div id="YellowTressuary" class="TextResize">
+        <div id="YellowTressuary" >
             <p>Treassuary:<span data-treassury>0</span></p>
         </div>
     </div>
     <div id="PolCompassDiv">
-        <img id="PolCompass" src="Political_Compass_standard_model.svg.png" alt="picture of a Political Compass which displays your current Political status based on your previous decisions">
+        <img id="PolCompass" src="Political_Compass_standard_model[WITHOUT ARROWS].svg.png" alt="picture of a Political Compass which displays your current Political status based on your previous decisions">
     </div>
     <div id="GameLoopArea">
         <img src="Pixel art king.png" alt="A picture of the king, which is who you are as the player." id="Ducking">
@@ -37,14 +37,18 @@
                 <p >I WANT MONAY, my liege. I will Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem sequi exercitationem consequuntur debitis facilis quod dolorem nam dolores explicabo beatae, repellat quos libero ducimus eum molestiae error itaque est nemo.</p>
             </div>
             <img src="Pixel Art Farmer Peasent.png" alt="A picture of a Peasent" id="PoorPersonIsSpeaking">
-            <button id="GreenButton"><img src="Pixel Art Green Thumb.png" alt="Yes" class="Thumb"></button>
-            <button id="RedButton"><img src="Pixel Art Red Thumb.png" alt="No" class="Thumb"></button>
+            <div id="VotingButtons">
+                <button id="GreenButton" class="Thumb"><img src="Pixel Art Green Thumb.png" alt="Yes" class="Thumb"></button>
+                <button id="RedButton" class="Thumb"><img src="Pixel Art Red Thumb.png" alt="No" class="Thumb"></button>
+            </div>
         </div>
         
     </div>
     <div class="InfoHUD" id="EnactedPolicy">
         <p id="EnactedPolicyP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, libero? Aspernatur soluta accusantium hic delectus adipisci laboriosam deleniti culpa facilis? Nihil doloremque blanditiis illo ullam, inventore minima nam odit placeat.</p>
     </div>
-    <!-- <img src="Help dropdown.png" alt="A button for the settings dropdown"> I need to make a settings dropdown menu shiz-->
+        <div  class="InfoHUD" id="HELP">
+            <p >If you do not know how to play this trainwreck of a game <a href=".tutorial">click here!</a> <br>If you have a complaint, want to report a bug, or in any other way contact me, <a href="mailto:mikael.webbdev@gmail.com">mikael.webbdev@gmail.com</a></p>
+        </div>
 </body>
 </html>
