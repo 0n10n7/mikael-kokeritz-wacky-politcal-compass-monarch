@@ -42,10 +42,11 @@
   max-height: 20vh;
   margin: 0px auto;
 }
-#KingHeadIndicator{
+#Indicator{
   max-width:1vw;
   max-height: 1vh;
-  
+  grid-column-start: var(--Econ);/*Econ*/
+  grid-row-start: var(--Auth); /*Auth*/
 }
 
 #StatsTracker {
