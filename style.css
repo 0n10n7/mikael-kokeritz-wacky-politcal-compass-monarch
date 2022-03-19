@@ -32,11 +32,20 @@
 #PolCompassDiv {
   grid-row-start: 1;
   grid-column-start: 3;
-}
-#PolCompass {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  background-image: url("Political_Compass_standard_model[WITHOUT ARROWS].svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   max-width: 20vw;
   max-height: 20vh;
   margin: 0px auto;
+}
+#KingHeadIndicator{
+  max-width:1vw;
+  max-height: 1vh;
+  
 }
 
 #StatsTracker {
@@ -128,6 +137,8 @@ begining of bottom row*/
 }
 #EnactedPolicy {
   margin: 0px 1em;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 div.InfoHUD {
@@ -138,6 +149,9 @@ div.InfoHUD {
   padding: 0.5vw;
 }
 .InfoHUD > p{
+  font-size: var(--size);
+}
+.InfoHUD > span{
   font-size: var(--size);
 }
 
